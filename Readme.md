@@ -19,7 +19,7 @@ sqlmap - u "url?prm=" -p prm -D dbname  --dump
  ```
  sqlmap - u "url?prm=" -p prm --dbs  --dump
 ``` 
- **or use --dump-all instead of --dump to fetch all databases's all tables and columns** 
+ *or use --dump-all instead of --dump to fetch all databases's all tables and columns*
 
 
 <h4>Extra Parameter to Optimise SQLmap's Performance</h4>
